@@ -1,266 +1,46 @@
 
+  body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
- body {
-     background-color: #f6f5f5;
-     margin: 0px;
-     padding: 0px;
- }
+  }
 
+  .nav{
+     background-color:rgb(223, 214, 204);
+     border:2px solid rgb(36, 35, 35); 
+     border-radius: 6px;  
+     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 0.2);      
 
- section {
-     width: 100%;
-     height: 95vh;
-     background-image: url("bg.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
-     position: relative;
+  }
 
- }
+  .abt{
 
- nav {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     height: 60px;
-     background-color: white;
-     box-shadow: 20px 2px 12px rgba(0, 0, 0, 0.2);
-     padding: 0px 5%;
-
- }
-
- nav ul {
-     list-style: none;
-     display: flex;
- }
-
- li a {
-     margin: 60px;
-     font-family: cursive;
-     color: #2e2c2c;
-     font-size: 20px;
-     font-weight: bold;
-     text-decoration: none;
-
-
- }
-
- .active {
-     font-weight: bold;
-     background-color: rgb(37, 42, 43);
-     color: white;
- }
-
- nav ul li a:hover:not(.active) {
-     background-color: rgb(139, 136, 131);
-     color: white
- }
-
- * {
-    box-sizing: border-box;
-}
-
-
- .container {
+     background-color:rgb(238, 207, 170); 
+     border-radius: 6px;  
+     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 0.2);
+  }
+  .abt h3{
+    color:rgb(133, 63, 63); 
+    text-align:center; 
+    font-size: 45px; 
+    letter-spacing: 3px; 
+    font-family: cursive;
     
-     position: absolute;
-     left: 23%;
-     top: 32%;
+  }
 
-
- }
-
- .container p {
-     margin: 45px 10px 25px;
-     line-height: 10px;
- }
-
-
- .container p:nth-child(1) {
-     font-family: calibri;
-     font-weight: bold;
-     color: #6d6d6d;
-     font-size: 22px;
- }
-
- .container p:nth-child(2) {
-     font-family: calibri;
-     font-weight: bold;
-     letter-spacing: 2px;
-     color: #1a1a1a;
-     font-size: 60px;
-
- }
-
- .container p:nth-child(3) {
-     font-family: myriad pro regular;
-     color: #403e3e;
-     font-size: 30px;
-     line-height: 30px;
- }
-
- .btn {
-     background-color: rgb(0, 0, 0);
+  #btn{
+    background-color: rgb(0, 0, 0);
      color: white;
+     margin-top:6px;
      width: 130px;
      position: absolute;
-     left: 15%;
      height: 30px;
      border: none;
      outline: none;
-     border-radius: 10px;
- }
-
- button:active {
-     transform: scale(1.1);
- }
-
-
-
- .img {
-     position: absolute;
-     left: 792px;
-     bottom: 70px;
-     width: 35%;
-     height: 500px;
-
-
- }
-
- .about {
-     border: 2px solid rgb(167, 156, 156);
-     width: 70%;
-     height: 330px;
-     background-color: #ffffff;
-     border-radius: 20px;
-     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 0.2);
-     display: flex;
-     flex-direction: column;
-     margin: -5% 220px;
-     position: relative;
-     justify-content: space-evenly;
-     align-items: center;
-
- }
-
-
-
- .about p {
-     margin: 30px 10px 25px;
-
-
-
- }
-
- #p1 {
-     font-size: 50px;
-     font-family: cursive;
-     line-height: 0px;
- }
-
- #p2 {
-     font-size: 18px;
-     line-height: 30px;
- }
-
- #p3 {
-     font-size: 18px;
-     line-height: 30px;
- }
-.info{
-    background-color: rgb(169, 172, 169);
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    top: 90px;
+     border-radius: 10px;   
+  }
+  
+  button:active {
+    transform: scale(1.1);
 }
- .skill {
-    
-     display: flex;
-     align-items: center;
-     /* border:2px solid black; */
-     justify-content: center;
-     position: relative;
-     top: -30%;
-    
-
-    
- }
-
- .item {
-
-     margin: 150px;
-     padding:  -3px 6px;
-     font-size: 40px;
-     /* font-family: calibri; */
-
- }
-
- #s1 {
-     width: 50px;
-     height: 60px;
-     position:relative;
-     left:0%;
-
- }
-
- #s2 {
-     width: 50px;
-     height: 70px
- }
-
- #s3 {
-     width: 50px;
-     height: 70px
- }
-
- #s4 {
-     width: 50px;
-     height: 70px;
- }
-
- #skl {
-     margin: 60px 30px;
-     text-align:center;
-     font-size: 40px;
-     color: rgb(42, 42, 44);
-     padding:30px;
- }
-
- .contact {
-     width: 100%;
-     height: 50vh;
-     background-color: rgb(231, 229, 229);
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     top: 100px;
-     /* justify-content: center; */
-     align-items: center;
-     /* line-height: 20px; */
- }
-
- #c1 {
-     font-size: 30px;
-     font-weight: bold;
- }
-
- #c2 {
-     font-size: 20px;
-     font-family: 'Architects Daughter', cursive;
- }
-
- #c3 {
-     font-size: 20px;
-     font-family: 'Architects Daughter', cursive;
- }
-
- #c4 {
-     font-size: 20px;
-     font-family: 'Architects Daughter', cursive;
- }
-
- #c5 {
-     font-size: 20px;
-     font-family: 'Architects Daughter', cursive;
- }
-
