@@ -166,22 +166,30 @@
      font-size: 18px;
      line-height: 30px;
  }
-
+.info{
+    background-color: rgb(169, 172, 169);
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 90px;
+}
  .skill {
-     background-color: rgb(203, 212, 203);
-     width: 100%;
-     height: 60vh;
-     position: relative;
-     top: 90px;
+    
      display: flex;
      align-items: center;
-     flex-wrap: wrap;
+     /* border:2px solid black; */
+     justify-content: center;
+     position: relative;
+     top: -30%;
+    
+
+    
  }
 
  .item {
 
-     margin: 140px;
-     padding: 0px 6px;
+     margin: 150px;
+     padding:  -3px 6px;
      font-size: 40px;
      /* font-family: calibri; */
 
@@ -190,6 +198,8 @@
  #s1 {
      width: 50px;
      height: 60px;
+     position:relative;
+     left:0%;
 
  }
 
@@ -209,10 +219,11 @@
  }
 
  #skl {
-     margin: 25px 30px;
-     justify-content: center;
+     margin: 60px 30px;
+     text-align:center;
      font-size: 40px;
-     color: rgb(47, 49, 53);
+     color: rgb(42, 42, 44);
+     padding:30px;
  }
 
  .contact {
